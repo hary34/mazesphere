@@ -1,0 +1,36 @@
+body {
+    background: radial-gradient(circle at center, #222, #000);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#maze {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #fff;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #f39c12;
+    top: 140px;
+    left: 140px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
